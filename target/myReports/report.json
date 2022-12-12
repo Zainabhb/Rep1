@@ -1,0 +1,73 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2022-12-12T23:06:54.843Z",
+    "line" : 2,
+    "name" : "Verify Login with valid data",
+    "description" : "",
+    "id" : "login-action;verify-login-with-valid-data",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 14000800,
+        "status" : "passed"
+      },
+      "line" : 3,
+      "name" : "when user is on home page",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.when_user_is_on_home_page()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "user clicks on signin link check title",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.user_clicks_on_signin_link_check_title()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 2000100,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "user enters user name and password clicks on submit",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.user_enters_user_name_and_password_clicks_on_submit()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 4000200,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "check user is valid and display message as Login Successful",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.check_user_is_valid_and_display_message_as_login_successful()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 1000100,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "Close the Browser",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.close_the_browser()"
+      },
+      "keyword" : "And "
+    } ]
+  } ],
+  "name" : "Login Action",
+  "description" : "",
+  "id" : "login-action",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/features/TC001_Login.feature",
+  "tags" : [ ]
+} ]
